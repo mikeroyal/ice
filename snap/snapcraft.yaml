@@ -1,6 +1,6 @@
 name: ice
 version: git
-summary: Ice tool.
+summary: Ice tool from Peppermint OS.
 description: | Tool to create Chromium/Chrome/Firefox/Vivaldi SSBs in Peppermint OS. 
  
 grade: stable
@@ -13,7 +13,7 @@ architectures:
 parts:
   ice:
     source: https://github.com/peppermintos/ice.git
-    source-tag: v6.0.4
+    source-tag: v6.0.5
     plugin: python
     python-version: python3
     build-packages:
